@@ -1,8 +1,8 @@
-name: my-front
+name: AWS
 on:
   push:
     branches:
-      - main
+      - cloudfront&githubAction
 jobs:
   build:
     runs-on: ubuntu-latest
